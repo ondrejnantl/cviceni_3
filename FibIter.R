@@ -1,7 +1,7 @@
 FibIter <- function(n){
   Past <- 0
   Curr <- 1
-  if (n == 1 | n == 2){
+  if (n == 1){
     return(1)
   } else {
     for (i in 1:(n-1)) {
